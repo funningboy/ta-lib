@@ -10,6 +10,7 @@ from talib.abstract import Function
 TEST_LEN = int(sys.argv[1]) if len(sys.argv) > 1 else 100
 r = np.arange(TEST_LEN)
 idata = np.random.random(TEST_LEN)
+idata
 
 def func_example():
     odata = talib.MA(idata)
